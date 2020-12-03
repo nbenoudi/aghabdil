@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+import MyCalander from './Componnents/Moment';
+class  App  extends React.Component {
+
+  state = {
+    view: "day",
+    date: new Date(2015, 3, 12),
+    width: 500
+  };
+
+ 
+
+
+ render(){
+  return(<div> <div style={{color:"brown",fontSize:"10px",animation:"both"}} > <center><h1> ⴰⵖⴰⴱⴷⵉⵍ ⵏ ⵜⴰⵏⴰ  </h1></center></div> 
+       
+    <MyCalander style={{borderBottom: "solid black 1px", alignItems: "center", justifyContent: "center", fontWeight: "bold"} }>
+      
+    </MyCalander>
+  
+    
+    </div> 
+    
+    
+    )
+   
+ }
 }
+  
+
 
 export default App;
+
