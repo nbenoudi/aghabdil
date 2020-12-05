@@ -46,9 +46,9 @@ const MyCalander=()=>(<div><Calendar
      
     toolbar={true}
     messages={{
-      today: "ⴰⵙⵙⴰ",
-      previous: "<<<",
-      next: ">>>",
+      today: "ⴰⵢⴻⵔⵔⴰ",
+      previous: "<<< ⴰⵢⵓⵔ ⵉⵣⵔⵉⵍ",
+      next: "ⴰⵢⵓⵔ ⵢⴰⴹⵍ >>>",
       month: "Ayour",
       week: "Simana",
       day: "Tassa3ine",

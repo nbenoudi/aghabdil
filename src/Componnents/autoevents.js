@@ -1,4 +1,4 @@
-const now = new Date("2020, 10, 22,")
+const now = new Date("2020, 11, 24,")
 var autoevents=[{id:"",
 title:"",start:"",end:""}];
 const testevents= [
@@ -9,105 +9,105 @@ const testevents= [
       } ,
       {
         id: 1,
-        title: 'tin ait bakhlla ',
+        title: ' ait bakhlla ',
        
       },
     
       {
         id: 2,
-        title: 'Tin sch3ou',
+        title: 'sch3ou',
       
       },
     
       {
         id: 3,
-        title: 'tin ben yadre',
+        title: 'ben yadre',
        
       },
     
       {
         id: 4,
-        title: 'tin ait gourma',
+        title: 'ait gourma',
       
       },
       {
         id: 5,
-        title: 'tin zaddou',
+        title: ' zaddou',
        
       },
       {
         id: 6,
-        title: 'Tin 3li ouhamad',
+        title: ' 3li ouhamad',
       
       },
       {
         id: 7,
-        title: 'tin ait kemmou',
+        title: ' ait kemmou',
         
       },
       {
         id: 8,
-        title: 'tin ait sikis',
+        title: ' ait sikis',
         
       },
       {
         id: 9,
-        title: 'tin oumazware',
+        title: ' oumazware',
       
       },
       {
         id: 10,
-        title: 'tin ait hlous',
+        title: ' ait hlous',
       
       },
       {
         id: 11,
-        title: 'tin ait messri ',
+        title: ' ait messri ',
       
       },
       {
         id: 12,
-        title: 'tin oukhabi',
+        title: ' oukhabi',
       
       },
       {
         id: 13,
-        title: 'tin ait 3li',
+        title: ' ait 3li',
        
       },
       {
         id: 14,
-        title: 'tin mouha sekou',
+        title: ' mouha sekou',
     
       },
       {
         id: 15,
-        title: 'tin ouhartane',
+        title: ' ouhartane',
      
       },
       {
         id: 16,
-        title: 'tin rradi',
+        title: ' rradi',
 
       },
       {
         id: 17,
-        title: 'tin mezgdan',
+        title: ' mezgdan',
     
       },
       {
         id: 18,
-        title: 'tin khssas',
+        title: ' khssas',
  
       },
       {
         id: 19,
-        title: 'tin ait makhdasch',
+        title: ' ait makhdasch',
  
       },
       {
         id: 20,
-        title: 'tin ait 3assou ',
+        title: ' ait 3assou ',
      
       },
       {
@@ -117,93 +117,93 @@ const testevents= [
       },
       {
         id: 22,
-        title: 'tin mtightane',
+        title: ' mtightane',
       
       },
       {
         id: 23,
-        title: 'tin Hssayen ouhssayen',
+        title: ' Hssayen ouhssayen',
      
       },
       {
         id: 24,
-        title: 'tin oulahza',
+        title: ' oulahza',
      
       },
       {
         id: 25,
-        title: 'tin ou9arreb',
+        title: ' ou9arreb',
      
       },  {
         id: 26,
-        title: 'tin 9assou',
+        title: ' 9assou',
      
       },  {
         id: 27,
-        title: 'tin outbir',
+        title: ' outbir',
       
       },  {
         id: 28,
-        title: 'tin ouhrwa igharmine',
+        title: ' ouhrwa igharmine',
      
       },  {
         id: 29,
-        title: 'tin mdi9',
+        title: ' mdi9',
       
       },  {
         id: 30,
-        title: 'tin oujlil',
+        title: ' oujlil',
       
       },  {
         id: 31,
-        title: 'tin ait hammou',
+        title: ' ait hammou',
       
       },  {
         id: 32,
-        title: 'tin oudjji',
+        title: ' oudjji',
      
       },  {
         id: 33,
-        title: 'tin oulou dasch',
+        title: ' oulou dasch',
       
       },  {
         id: 34,
-        title: 'tin tourtit',
+        title: ' tourtit',
        
       },  {
         id: 35,
-        title: 'tin ourhhou',
+        title: ' ourhhou',
      
       },  {
         id: 36,
-        title: 'tin bou rschoum',
+        title: ' bou rschoum',
       
       },  {
         id: 37,
-        title: 'tin shclag d tin sch3ou',
+        title: ' shclag d  sch3ou',
        
       },  {
         id: 38,
-        title: 'tin oumimoune',
+        title: ' oumimoune',
       
       },  {
         id: 39,
-        title: 'tin ait madousch',
+        title: ' ait madousch',
        
       },
       {
         id: 40,
-        title: 'tin malbarj',
+        title: ' malbarj',
        
       },
       {
         id: 41,
-        title: 'tin ikhlaf',
+        title: ' ikhlaf',
         
       },
       {
         id: 42,
-        title: 'tin o hrou',
+        title: ' o hrou',
         
       },
       {
@@ -213,105 +213,105 @@ const testevents= [
       } ,
       {
         id: 44,
-        title: 'tin ait bakhlla ',
+        title: ' ait bakhlla ',
        
       },
     
       {
         id: 45,
-        title: 'Tin sch3ou',
+        title: ' sch3ou',
       
       },
     
       {
         id: 46,
-        title: 'tin ben yadre',
+        title: ' ben yadre',
        
       },
     
       {
         id: 47,
-        title: 'tin ait gourma',
+        title: ' ait gourma',
       
       },
       {
         id: 48,
-        title: 'tin zaddou',
+        title: ' zaddou',
        
       },
       {
         id: 49,
-        title: 'Tin 3li ouhamad',
+        title: ' 3li ouhamad',
       
       },
       {
         id: 50,
-        title: 'tin ait kemmou',
+        title: ' ait kemmou',
         
       },
       {
         id: 51,
-        title: 'tin ait sikis',
+        title: ' ait sikis',
         
       },
       {
         id: 52,
-        title: 'tin oumazware',
+        title: ' oumazware',
       
       },
       {
         id: 53,
-        title: 'tin ait hlous',
+        title: ' ait hlous',
       
       },
       {
         id: 54,
-        title: 'tin ait messri ',
+        title: ' ait messri ',
       
       },
       {
         id: 55,
-        title: 'tin oukhabi',
+        title: ' oukhabi',
       
       },
       {
         id: 56,
-        title: 'tin ait 3li',
+        title: ' ait 3li',
        
       },
       {
         id: 57,
-        title: 'tin mouha sekou',
+        title: ' mouha sekou',
     
       },
       {
         id: 58,
-        title: 'tin ouhartane',
+        title: ' ouhartane',
      
       },
       {
         id: 59,
-        title: 'tin rradi',
+        title: ' rradi',
 
       },
       {
         id: 60,
-        title: 'tin mezgdan',
+        title: ' mezgdan',
     
       },
       {
         id: 61,
-        title: 'tin khssas',
+        title: ' khssas',
  
       },
       {
         id: 62,
-        title: 'tin ait makhdasch',
+        title: ' ait makhdasch',
  
       },
       {
         id: 63,
-        title: 'tin ait 3assou ',
+        title: ' ait 3assou ',
      
       },
       {
@@ -321,93 +321,93 @@ const testevents= [
       },
       {
         id: 65,
-        title: 'tin mtightane',
+        title: ' mtightane',
       
       },
       {
         id: 67,
-        title: 'tin Hssayen ouhssayen',
+        title: ' Hssayen ouhssayen',
      
       },
       {
         id: 68,
-        title: 'tin oulahza',
+        title: ' oulahza',
      
       },
       {
         id: 69,
-        title: 'tin ou9arreb',
+        title: ' ou9arreb',
      
       },  {
         id: 70,
-        title: 'tin 9assou',
+        title: ' 9assou',
      
       },  {
         id: 71,
-        title: 'tin outbir',
+        title: ' outbir',
       
       },  {
         id: 72,
-        title: 'tin ouhrwa igharmine',
+        title: ' ouhrwa igharmine',
      
       },  {
         id: 73,
-        title: 'tin mdi9',
+        title: ' mdi9',
       
       },  {
         id: 74,
-        title: 'tin oujlil',
+        title: ' oujlil',
       
       },  {
         id: 75,
-        title: 'tin ait hammou',
+        title: ' ait hammou',
       
       },  {
         id: 76,
-        title: 'tin oudjji',
+        title: ' oudjji',
      
       },  {
         id: 77,
-        title: 'tin oulou dasch',
+        title: ' oulou dasch',
       
       },  {
         id: 78,
-        title: 'tin tourtit',
+        title: ' tourtit',
        
       },  {
         id: 79,
-        title: 'tin ourhhou',
+        title: ' ourhhou',
      
       },  {
         id: 80,
-        title: 'tin bou rschoum',
+        title: ' bou rschoum',
       
       },  {
         id: 81,
-        title: 'tin shclag d tin sch3ou',
+        title: ' shclag d  sch3ou',
        
       },  {
         id: 82,
-        title: 'tin oumimoune',
+        title: ' oumimoune',
       
       },  {
         id: 83,
-        title: 'tin ait madousch',
+        title: ' ait madousch',
        
       },
       {
         id: 84,
-        title: 'tin malbarj',
+        title: ' malbarj',
        
       },
       {
         id: 85,
-        title: 'tin ikhlaf',
+        title: ' ikhlaf',
         
       },
       {
         id: 86,
-        title: 'tin o hrou',
+        title: ' o hrou',
         
       },
 ]
