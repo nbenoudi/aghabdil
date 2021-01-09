@@ -1,8 +1,7 @@
 import React, {Children} from 'react';
 import {Calendar, momentLocalizer} from 'react-big-calendar'
 import moment from 'moment'
-//import events from '../exams.js'
-import autoevents from '../Componnents/autoevents'
+import autoevents from '../Componnents/events'
 //let allViews=Object.keys(Views).map(k=>Views[k]);
 const localizer = momentLocalizer(moment)
 
@@ -10,7 +9,7 @@ const Colorecell = ({children, value}) =>
     React.cloneElement(Children.only(children), {
         style: {
             ...children.style,
-            backgroundColor:value<moment("2021,01,01") ? '#ffb74d': '#ffe0b2'
+            backgroundColor:value<moment("2021, 01, 13,") ? '#ffb74d': '#ffe0b2'
           }
         });
           
@@ -19,7 +18,7 @@ const Colorecell = ({children, value}) =>
 
 
 const MyCalander=()=>(<div><Calendar 
-  style={{ height:"80%", width:"80%",backgroundColor:"#ff6f00",color:"black"}}
+  style={{ height:"100%", width:"100%",backgroundColor:"#ffffff",color:"black"}}
 
   
     //events={events}
@@ -40,10 +39,10 @@ const MyCalander=()=>(<div><Calendar
     startAccessor='start'
     endAccessor='end'
   
-   //min={new Date(2020, 11, 29, 0, 0)} // 6.00 AM
-   // max={new Date(2021, 11, 29, 24, 0)} // Max will be 6.00 PM!
+   min={new Date("2021, 01, 13,")} // 6.00 AM
+   max={new Date("2021, 02, 20,")} // Max will be 6.00 PM!
     scrollToTime={new Date()}
-     
+    
     toolbar={true}
     messages={{
       today: "ⴰⵢⴻⵔⵔⴰ",
@@ -62,16 +61,20 @@ const MyCalander=()=>(<div><Calendar
     eventPropGetter={
       (event) => {
         let newStyle = {
-          backgroundColor:"#0d47a1",
-          color: '#fbc02d',
+         backgroundColor:"#000000",
+          color: '#ffffff',
           borderRadius: "4px",
           border: "none"
         };
-  
-        if (event.id%2===0){
-          newStyle.backgroundColor = "#1976d2"
+      /*
+        if (event.id %2 === 0){
+          
+          newStyle.backgroundColor = "#fff000"
+        }else{
+          
+          newStyle.backgroundColor = "#133337"
         }
-  
+  */
         return {
           className: "",
           style: newStyle

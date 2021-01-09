@@ -5,24 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#e76813;
+  background-color:#f3ede9;
   
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    color: darkkhaki;
+    color: rgb(231, 230, 219);
 }
 .rbc-calendar {
   min-height: 600px;
-  color:rgb(12, 3, 24);
+  color:snow
 }
 
 element.style{
 border-width: 0px 0px 0px 4px;
-border-left-color: darkorange;
-background-color: darksalmon;
+border-left-color: rgb(236, 234, 230);
+background-color: rgb(26, 24, 24);
 border-radius: 0px 4px 4px 0px;
 width: 50%;height: 50%;
 top:10%;
@@ -32,11 +32,12 @@ left: 10%;
 border: 1px solid;
 display: flex;
 max-height: 100%;
-min-height: 20px;
+min-height: 10px;
 flex-flow: column-reverse;
 align-items: flex-start;
 overflow: hidden;
 position: relative;
+
 
 
 }
