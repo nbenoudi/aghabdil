@@ -1,6 +1,6 @@
-const now = new Date("2021, 01, 12,")
-var tas = [{title:""}];
-var tid = [{title:""}];
+const now = new Date("2025, 12, 03,");
+var tas = [{ title: "" }];
+var tid = [{ title: "" }];
 var autoevents = [{
   id: "-1",
   title: "ⵉⵖⴼ ⵍ ⵎⵓⵍⵢ ", start: "", end: ""
@@ -109,7 +109,7 @@ const testevents = [
   },
   {
     id: 19,
-    title:'اهرو',
+    title: 'اهرو',
 
   },
 
@@ -166,7 +166,7 @@ const testevents = [
 
   }, {
     id: 32,
-    
+
     title: 'اهرو نغرمين',
   }, {
     id: 33,
@@ -178,7 +178,7 @@ const testevents = [
 
   }, {
     id: 35,
-   
+
     title: 'ايت سكيس',
   }, {
     id: 36,
@@ -186,7 +186,7 @@ const testevents = [
 
   }, {
     id: 37,
-   
+
     title: 'امزوار',
   },
   {
@@ -195,82 +195,86 @@ const testevents = [
   },
   {
     id: 39,
-   
+
     title: 'ايت حلوس',
 
   },
   {
     id: 40,
-  
+
     title: 'اضبجي',
   },
-{
+  {
     id: 41,
-   
+
     title: 'ايت مسري',
   },
 
 ]
 
 
-for (let j = 0; j < 365; j++) {
-  let k = parseInt(j / 17);
-  let r = j % 17;
-/*
-  
-  if (r===0) {
-    tas[j]={title: "الجامع"}; 
-    tid[j]={title: "الجامع"};
-    
-  } else {
+for (let j = 0; j < 366; j++) {
+  let kjam3 = parseInt(j / 17);
+  let doura = parseInt(j / 22);
+  let rjam3 = j % 17;
 
-      tas[j]={title:testevents[(2 * j-2) % 42].title}; 
-      tid[j]={title:testevents[(2 * j-1) % 42].title};//
-     
-   } 
-    
-    
-*/
-    
-  
+  if (kjam3 % 2 === 0) {
 
+    if (rjam3 === 0) {
 
-  if (k % 2 === 0 ) {
-    if (r === 0 ) {
-    
-      tas[j]={title: "الجامع"}; 
-      tid[j]={title: "الجامع"};
+      tas[j] = { title: "الجامع" };
+      tid[j] = { title: "الجامع" };
 
     } else {
-     
-      tas[j]={title:testevents[(2 * (j-k)-1) % 42].title}; 
-      tid[j]={title:testevents[(2 * (j-k)-2) % 42].title};//
-    }
-  } else {
-    if (r !== 0) {
 
-      tas[j] ={title: testevents[ (2 * (j-k)-2) % 42].title}; 
-  
-     tid[j]={title:testevents[(2 * (j-k)-1) % 42].title}; 
-    } else {
-      
-      tas[j]={title : "الجامع"};
-     tid[j]={title : "الجامع"};
-     
+      if ((doura + kjam3) % 2 === 0) {
+        tas[j] = { title: testevents[(2 * (j - kjam3) - 1) % 42].title };
+
+        tid[j] = { title: testevents[(2 * (j - kjam3) - 2) % 42].title };//
+      } else {
+        tas[j] = { title: testevents[(2 * (j - kjam3) - 2) % 42].title };//
+
+        tid[j] = { title: testevents[(2 * (j - kjam3) - 1) % 42].title };
+      }
+
+
+
+
+
     }
-    
   }
-  
- now.setDate(now.getDate()+1); 
- 
-autoevents.push({title:tid[j].title,start:now.setDate(now.getDate()),end:now.setDate(now.getDate())},{title:tas[j].title,start:now.setDate(now.getDate()),end:now.setDate(now.getDate())});
 
+  else {
+    if (rjam3 !== 0) {
+
+      if ((doura + kjam3) % 2 === 0) {
+        tas[j] = { title: testevents[(2 * (j - kjam3) - 2) % 42].title };
+        tid[j] = { title: testevents[(2 * (j - kjam3) - 1) % 42].title };
+      } else {
+        tas[j] = { title: testevents[(2 * (j - kjam3) - 1) % 42].title };
+        tid[j] = { title: testevents[(2 * (j - kjam3) - 2) % 42].title };
+      }
+
+    } else {
+
+      tas[j] = { title: "الجامع" };
+      tid[j] = { title: "الجامع" };
+
+    }
+
+
+  }
+  //
+
+  now.setDate(now.getDate() + 1);
+
+  autoevents.push({ title: tid[j].title, start: now.setDate(now.getDate()), end: now.setDate(now.getDate()) }, { title: tas[j].title, start: now.setDate(now.getDate()), end: now.setDate(now.getDate()) });
 }
 
 
 
 
-  
+
 
 
 

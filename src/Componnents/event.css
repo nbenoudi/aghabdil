@@ -1,0 +1,13 @@
+.event{
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    font-size: medium;
+    font-weight: bolder;
+    background: linear-gradient(5deg, rgb(241, 248, 198) 1%,rgb(175, 233, 197) 90%);
+    border-radius: 20px;
+    padding: auto;
+    border: 5px solid rgb(229, 241, 227);
+    box-shadow: rgb(133,189,215, 0.8784313725);
+    margin: 10px;
+    color: black;
+}

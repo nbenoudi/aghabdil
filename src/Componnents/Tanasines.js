@@ -1,4 +1,4 @@
-import React, {Children} from 'react';
+import React, {Children, useCallback} from 'react';
 import {Calendar, momentLocalizer} from 'react-big-calendar'
 import moment from 'moment'
 import autoevents from '../Componnents/events'
@@ -15,7 +15,8 @@ const Colorecell = ({children, value}) =>
           
         
     
-
+       
+      
 
 const MyCalander=()=>(<div><Calendar 
   style={{ height:"100%", width:"100%",backgroundColor:"#ffffff",color:"black"}}
@@ -32,15 +33,14 @@ const MyCalander=()=>(<div><Calendar
     views={['month']}
    // views={allViews}
    work_week="false"
-
     schowMultiDayTimes
   
     localizer={localizer}
     startAccessor='start'
     endAccessor='end'
   
-   min={new Date("2023, 01, 13,")} // 6.00 AM
-   max={new Date("2023, 02, 20,")} // Max will be 6.00 PM!
+   min={new Date("2025, 12, 13,")} // 6.00 AM
+   max={new Date("2026, 12, 31,")} // Max will be 6.00 PM!
     scrollToTime={new Date()}
     
     toolbar={true}
