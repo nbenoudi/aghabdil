@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/aghabdil/static/css/main.40531358.chunk.css",
-    "main.js": "/aghabdil/static/js/main.612440ce.chunk.js",
-    "main.js.map": "/aghabdil/static/js/main.612440ce.chunk.js.map",
+    "main.css": "/aghabdil/static/css/main.8b8071f8.chunk.css",
+    "main.js": "/aghabdil/static/js/main.dc70588e.chunk.js",
+    "main.js.map": "/aghabdil/static/js/main.dc70588e.chunk.js.map",
     "runtime-main.js": "/aghabdil/static/js/runtime-main.9431543f.js",
     "runtime-main.js.map": "/aghabdil/static/js/runtime-main.9431543f.js.map",
     "static/css/2.0768f66f.chunk.css": "/aghabdil/static/css/2.0768f66f.chunk.css",
-    "static/js/2.b87d8b81.chunk.js": "/aghabdil/static/js/2.b87d8b81.chunk.js",
-    "static/js/2.b87d8b81.chunk.js.map": "/aghabdil/static/js/2.b87d8b81.chunk.js.map",
+    "static/js/2.a911f4cd.chunk.js": "/aghabdil/static/js/2.a911f4cd.chunk.js",
+    "static/js/2.a911f4cd.chunk.js.map": "/aghabdil/static/js/2.a911f4cd.chunk.js.map",
     "static/js/3.862f36c6.chunk.js": "/aghabdil/static/js/3.862f36c6.chunk.js",
     "static/js/3.862f36c6.chunk.js.map": "/aghabdil/static/js/3.862f36c6.chunk.js.map",
     "index.html": "/aghabdil/index.html",
     "static/css/2.0768f66f.chunk.css.map": "/aghabdil/static/css/2.0768f66f.chunk.css.map",
-    "static/css/main.40531358.chunk.css.map": "/aghabdil/static/css/main.40531358.chunk.css.map",
-    "static/js/2.b87d8b81.chunk.js.LICENSE.txt": "/aghabdil/static/js/2.b87d8b81.chunk.js.LICENSE.txt"
+    "static/css/main.8b8071f8.chunk.css.map": "/aghabdil/static/css/main.8b8071f8.chunk.css.map",
+    "static/js/2.a911f4cd.chunk.js.LICENSE.txt": "/aghabdil/static/js/2.a911f4cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9431543f.js",
     "static/css/2.0768f66f.chunk.css",
-    "static/js/2.b87d8b81.chunk.js",
-    "static/css/main.40531358.chunk.css",
-    "static/js/main.612440ce.chunk.js"
+    "static/js/2.a911f4cd.chunk.js",
+    "static/css/main.8b8071f8.chunk.css",
+    "static/js/main.dc70588e.chunk.js"
   ]
 }
